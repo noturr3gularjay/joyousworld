@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+nav{
+    padding: 12px auto;
+    text-align: left;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+}
+
+.navbutton{
+    margin-right: 30px;
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.navbutton:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+    background-color: 1px solid blue;
+    color: #fff;
+    padding: 25px;
+}
+
+.navform{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 30px;
+    padding-left: 30px;
+}
+
+nav li{
+    margin-right: 20px;
+    color: #fff;
+    display: flex;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+}
+
+nav a:hover{
+    color: yellow;
+    border-radius: 5px;
+}
+
+h1{
+    color: brown;
+}
+
+p{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+/* herosection */
+
+.hero{
+    background-color: #fff8dc;
+    padding: 5px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.herobutton{
+    padding: 20px;
+    background-color: burlywood;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.herobutton:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid rgb(11, 11, 227);
+    transition: 0.5s ease;
+}
+
+/* .product-info{
+    width: 40px;
+    padding-left: 60px;
+} */
+
+.product-info h1{
+    font-size: 50px;
+}
+
+.product-info h3{
+    font-size: 35px;
+}
+
+.product-info p{
+    line-height: 30px;
+}
+
+.product-section{
+    padding: 50px 50px;
+}
+
+/* productgrid */
+.product-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amala{
+    margin-top: 15px;
+}
+
+.menu{
+    padding: 15px;
+    background-color :rgb(243, 169, 73);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.menu:hover{
+    background-color: brown;
+    transition: 0.5s ease;
+}
+
+.Main-dish{
+    background-color: #fff8dc;
+    border-radius: 10px;
+}
+
+.col h1{
+    color: #fff;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+footer{
+    background-color: black;
+    padding: 50px;
+    border-radius: 5px;
+    color: #fff;
+}
